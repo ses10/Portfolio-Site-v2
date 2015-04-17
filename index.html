@@ -6,38 +6,102 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="resources/js/jquery.onepage-scroll.js"></script>
-        <script src="resources/js/scroll.js"></script>
-        <link  rel="stylesheet" type="text/css" href="resources/css/onepage-scroll.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+        
+        <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/onepage-scroll.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/animate.css">
+      
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="resources/js/jquery.onepage-scroll.js"></script>
+        <script src="resources/js/script.js"></script>
+        
+        
+        <script>
+          
+        </script>
         <title>TODO supply a title</title>        
     </head>
     <body>
         <div class="main">
-            <section>
+            <section id="home">                
                 <h1 class="animated bounceInDown" id="main-title">Dennis Sesma's</h1>
                 <h2 class="animated bounceInDown">Portfolio Site</h2>
                 <hr>
                 <p>Scroll down to see the other parts of site.</p>
             </section>
             
-            <section>
-                <h1>This will be About Me</h1>
+            <section id="about-me">
+                <h2 class="sub-title">About Me</h2>
+                <hr>
+                <div id="my-background">
+                    <p>Welcome! My name is Dennis Sesma and I am currently finishing up my final year
+                    at Passaic County Community College. I study computer science and am self taught in 
+                    web technologies. Most of my interests concern front end development but I am not afraid 
+                    to go work in the back end once in a while. I enjoy building websites and applications. Also
+                    I am always trying to find new tools to build with so I can apply them to projects. Currently I 
+                    am in the process of learning how to create mobile apps using HTML5. Feel free to contact me about
+                    hiring me, working together, or other any questions.</p>                    
+                </div>               
             </section>
             
-            <section>
-                <h1>This will be Works</h1>
+            <section id="works">
+                <h2 class="sub-title">Works</h2>
+                <hr>
+              <!-- <div>This will be a slide show of my works</div>   -->
+            <table id="gallery">
+                <tr class="photos">
+                    <td><img src="resources/img/monkey1.jpg"><p><a href="#">Demo</a></p></td>
+                    <td><img src="resources/img/monkey2.jpg"><p><a href="#">Demo</a></p></td>
+                    <td><img src="resources/img/monkey3.jpg"><p><a href="#">Demo</a></p></td>
+                </tr>
+                
+            </table>
+                
+              
             </section>
             
-            <section>
-                <h1>This will be Technologies Used</h1>
+            <section id="technologies">
+                <h2 class="sub-title">Technologies</h2>
+                <hr>
+                <table>
+                    <tr>
+                        <td><img class="icon" src="resources/img/HTML5_Logo.png" alt=""></td>
+                        <td><img class="icon" src="resources/img/CSS3_Logo.png" alt=""></td>
+                        <td><img class="icon" src="resources/img/js3.png" alt=""></td>
+                        <td><img class="icon" src="resources/img/jQurery.gif" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img class="icon" src="resources/img/bootstrap.png" alt=""></td>
+                        <td><img class="icon" src="resources/img/sass-logo.png" alt=""></td>
+                        <td><img class="icon" src="resources/img/php.png" alt=""></td>
+                        <td><img class="icon" src="resources/img/github_logo.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"><p id="iconText">Label</p></td>
+                    </tr>
+                </table>
+                
             </section>
             
-            <section>
-                <h1>This will be Contact</h1>
+            <section id="contact">
+                <h2 class="sub-title">Contact</h2>
+                <hr>
+                
+                <form >
+                    <ul id="contact-form">
+                        <li><label>Name</label><input type="text" name="name"></li>
+                        <li><label>Email</label><input type="text" name="name"></li>
+                        <li><label>Subject</label><input type="text" name="name"></li>
+                        <li><label>Message</label><textarea></textarea></li>
+                    </ul>
+                </form>   
+                
             </section>
         </div>
+     
+        
     </body>
 </html>
