@@ -1,20 +1,180 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
 */
 /* 
     Created on : Apr 4, 2015, 7:32:50 PM
     Author     : Dennis
 */
-section{
-    background-color: #F6F6F6;
+
+@font-face{
+    font-family: PT_Sans;
+    src: url(../fonts/PT_Sans-Web-Regular.ttf);
 }
 
-#main-title{
-	margin-bottom: 0px;
+@font-face{
+    font-family: PT_Serif;
+    src: url(../fonts/PT_Serif-Web-Regular.ttf);
+}
+
+/*************General Styling******************/
+.sub-title{
+    font-size: 1200%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;  
+    line-height: 80%;
+    font-family: "PT_Sans"; 
+}
+
+hr{
+   background-color: #808080;
+   width: 20%;
+   height: 3px;
+   border-radius: 7px;
+}
+/*************Home Styling******************/
+#main-title{	
         font-size: 1000%;
 }
-h2{
+#home h2{
 	font-size:400%;
 }
+
+/*************About Me Styling******************/
+#my-background{
+    position: relative;
+    width: 82.15%;
+    background-color: #E3E3E3;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 7px;
+    padding: .5%;
+}
+
+#my-background p{
+    font-size: 175%;
+    line-height: 135%;
+    font-family: "PT_Serif";
+}
+
+/*************Works Styling******************/
+#gallery
+{
+	position: relative;
+	width: 64.58333333333334%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+#gallery img {      
+	position: relative;	
+	width: 100%;
+}
+
+#gallery p{
+    text-align: center;
+    background-color: #E3E3E3;
+    width: 100%;
+    margin-top: 3px;
+}
+
+#gallery td{
+    padding: 5px;
+}
+
+/*************Technologies Styling******************/
+#technologies table{
+    width: 64.58333333333334%;
+    /*background-color: #E3E3E3;    */
+    margin: 50px auto;
+    font-family: "PT_Serif";
+}
+
+#technologies table img {
+    height: 100px;
+    width: 100px;
+}
+
+#technologies td{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+table p{
+	line-height: 50px;
+	margin: 0 auto;
+	width: 150px;
+	height: 50px;
+        background-color: #E3E3E3;
+	border-radius: 7px;
+        visibility: hidden;
+}
+/*************Contact Styling******************/
+#contact-form{
+    width: 64.58333333333334%;
+    background-color: #E3E3E3;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: "PT_Serif";
+    border-radius: 7px;
+}
+
+#contact-form li{
+	padding-top: 5px;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#contact-form li label{
+	display: block;
+}
+
+#contact-form input{
+	border-radius: 5px;
+	width: 45%;
+	height: 25px;	
+}
+
+#contact-form textarea{
+	
+	border-radius: 5px;
+	width: 80%;
+	height: 150px;
+}
+
+/***Media Querities**/
+/*
+@media screen and (max-width: 320px) {
+    
+    body{
+        background-color: red;
+    }
+    
+    #main-title{
+        font-size: 500%;
+    }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 480px){    
+    body{
+        background-color: yellow;
+    }
+    
+    #main-title{
+        font-size: 600%;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 900px){
+    body{
+        background-color: green;
+    }
+    
+    #main-title{
+        font-size: 700%;
+    }
+}
+*/
