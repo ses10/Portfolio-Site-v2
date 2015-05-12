@@ -111,37 +111,23 @@ table p{
         visibility: hidden;
 }
 /*************Contact Styling******************/
-#contact-form{
+#contact-info{
     width: 64.58333333333334%;
     background-color: #E3E3E3;
     margin: 0 auto;
     margin-top: 50px;
     font-family: "PT_Serif";
     border-radius: 7px;
+    text-align: center;
 }
 
-#contact-form li{
-	padding-top: 5px;
-	text-align: center;
-	width: 60%;
-	margin: 0 auto;
+#contact-info h3{
+    font-size: 400%;
+    margin-bottom: 5px;
 }
 
-#contact-form li label{
-	display: block;
-}
-
-#contact-form input{
-	border-radius: 5px;
-	width: 45%;
-	height: 25px;	
-}
-
-#contact-form textarea{
-	
-	border-radius: 5px;
-	width: 80%;
-	height: 150px;
+#contact-info h4{
+    font-size: 250%;
 }
 
 /***Media Querities**/
